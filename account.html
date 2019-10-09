@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TRAIN TICKETS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		.login h2{
+			margin:0;
+		}
+		.login{
+			text-align: center;
+			line-height: 40px;
+			background-image: url('pic.jpg');
+			background-size: cover;
+			padding-bottom: 40px;
+		}
+		.login input{
+			border-top: none;
+			border-right: none;
+			border-left: none;
+			border-bottom: solid; 
+            border-color: #88001b;
+            height: 40px;
+            background-color: inherit;
+		}
+		button{
+			width: 190px;
+			height: 35px;
+			background-color: #88001b;
+			border-radius: 10px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="maintitle">
+			<h2>TRAIN TICKETS</h2>
+		</div>
+		<div>
+			<nav>
+			<ul class="submenu">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="news.html">NEWS</a></li>
+				<li><a href="account.html">ACCOUNT</a></li>
+				<li><a href="station.html">STATIONS</a></li>
+				<li><a href="contact.html">CONTACT US</a></li>
+			</ul>
+		</nav>
+		</div>
+	</header>
+	<section class="login">
+		<form action="login.php" method="POST">
+			<div>
+				<h2>LOGIN</h2>
+				<h2>Username</h2>
+				<input type="text" name="username" placeholder="Enter username">
+				<h2>Password</h2>
+				<input type="password" name="password" placeholder="Enter password"><br>
+				<button>SUBMIT</button><br>
+				<a href="register">Forgot password/Create new account</a>
+			</div>
+		</form>
+	</section>
+	<footer>
+		<section class="subfooter">
+			<div class="copyright">
+				<p style="color: #88001b">
+			Train Copyright &copy; 2019	</p>
+		    </div>
+		</section>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body{
+	margin: 0;
+	background-color: #e3e0ed;
+}
+header{
+	width: 100%;
+}
+.maintitle{
+	width: 85%;
+	text-align: center;
+	color: #88001b;
+}
+.copyright{
+	text-align: center;
+	width: 100%;
+	float: right;
+	background-color: #aa9ecc;
+}
+.submenu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.submenu li{
+	display: inline;
+	font-size: 25px;
+	padding-left: 20px;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+.headerstation{
+	color: #ffa600;
+	text-decoration: underline;
+	text-transform: uppercase;
+}

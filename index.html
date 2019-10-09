@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TRAIN TICKETS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		.tickets{
+			line-height: 30px;
+			background-image: url('trainn.jpg');
+		}
+		select{
+			width: 80%;
+			padding: 4px;
+			margin-left: 40px;
+
+		}
+		h3{
+			margin:0;
+			margin-left: 50px; 
+		}
+		.tickets button{
+			width: 60%;
+			margin-left: 100px;
+			background-color: #ff0000;
+			border-width: 0;
+			height: 25px;
+			margin-bottom: 20px;
+			margin-top: 20px;
+		}
+		.nairobi{
+			float: left;
+			text-align: center;
+			width: 30%;
+			padding-left: 20px;
+			margin-left: 50px
+		}
+		.voi{
+			float: right;
+			text-align: center;
+			width: 30%;
+			padding-left: 10px;
+		}
+		.mombasa{
+			float: right;
+			text-align: center;
+			width: 30%;
+			margin-left: 20px;
+			margin-right: 0;
+			padding: 0;		}
+		.stations{
+			width: 90%;
+		}
+		img{
+			width: 350px;
+			height: 160px;
+		}
+		.stations button{
+			height: 35px;
+			width: 120px;
+			margin-left: 20px;
+			border: none;
+			color: #e16c83;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="maintitle">
+			<h2>TRAIN TICKETS</h2>
+		</div>
+		<div>
+			<nav>
+			<ul class="submenu">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="news.html">NEWS</a></li>
+				<li><a href="account.html">ACCOUNT</a></li>
+				<li><a href="station.html">STATIONS</a></li>
+				<li><a href="contact.html">CONTACT US</a></li>
+			</ul>
+		</nav>
+		</div>
+	</header>
+	<section class="tickets">
+		<form>
+			<h3>Type</h3>
+			<select>
+				<option>Select type</option>
+				<option>Standard</option>
+				<option>Economy</option>
+				<option>First Class</option>
+			</select>
+			<h3>From</h3>
+			<select>
+				<option>Select origin</option>
+				<option>Voi</option>
+				<option>Mombasa</option>
+				<option>Nairobi</option>
+			</select>
+			<h3>To</h3>
+			<select>
+				<option>Select destination</option>
+				<option>Voi</option>
+				<option>Mombasa</option>
+				<option>Nairobi</option>
+			</select><br>
+			<button>Book a ticket</button>
+		</form>
+	</section>
+	<h2 class="headerstation">Featured stations</h2>
+	<section class="stations">
+		<div class="nairobi">
+			<img src="nairobi.jpg">
+			<h4>Nairobi terminus</h4>
+			<p>Located at south of Nairobi</p>
+			<button><a href="station.html">See all</a></button>
+		</div>
+		<div class="mombasa">
+			<img src="mombasa.jpg">
+		    <h4>Mombasa terminus</h4>
+            <p>Located at south of Mombasa</p>
+            <button><a href="station.html">See all</a></button>
+		</div>
+		<div class="voi">
+			<img src="voi.jpg">
+		    <h4>Voi terminus</h4>
+            <p>Located at south of Mombasa</p>
+            <button><a href="station.html">See all</a></button>
+		</div>
+	</section>
+	<footer>
+		<section class="subfooter">
+			<div class="copyright">
+				<p style="color: #88001b">
+			Train Copyright &copy; 2019	</p>
+		    </div>
+		</section>
+	</footer>
+</body>
+</html>
